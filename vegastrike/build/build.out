@@ -1,0 +1,21 @@
+[  8%] Built target OPcollide
+[ 31%] Built target engine_com
+[ 34%] Built target netgeneric
+[ 40%] Built target netlowlevel
+[ 46%] Built target boost_python
+[ 48%] Built target vssetup
+[ 48%] Built target boost_system
+[ 52%] Built target mesh_tool
+[ 59%] Built target vegaserver
+Scanning dependencies of target vegastrike
+[ 60%] Building CXX object CMakeFiles/vegastrike.dir/src/ffmpeg_init.cpp.o
+/home/todd/vegastrike/vegastrike/src/ffmpeg_init.cpp:11:17: fatal error: url.h: No such file or directory
+ #include <url.h>
+                 ^
+compilation terminated.
+CMakeFiles/vegastrike.dir/build.make:2446: recipe for target 'CMakeFiles/vegastrike.dir/src/ffmpeg_init.cpp.o' failed
+make[2]: *** [CMakeFiles/vegastrike.dir/src/ffmpeg_init.cpp.o] Error 1
+CMakeFiles/Makefile2:245: recipe for target 'CMakeFiles/vegastrike.dir/all' failed
+make[1]: *** [CMakeFiles/vegastrike.dir/all] Error 2
+Makefile:76: recipe for target 'all' failed
+make: *** [all] Error 2

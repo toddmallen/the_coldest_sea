@@ -1,0 +1,42 @@
+[  8%] Built target OPcollide
+[ 31%] Built target engine_com
+[ 34%] Built target netgeneric
+[ 40%] Built target netlowlevel
+[ 40%] Built target boost_system
+[ 44%] Built target mesh_tool
+[ 50%] Built target boost_python
+[ 52%] Built target vssetup
+[ 59%] Built target vegaserver
+[ 59%] Building CXX object CMakeFiles/vegastrike.dir/src/gfx/vid_file.cpp.o
+/home/todd/vegastrike/vegastrike/src/gfx/vid_file.cpp: In member function ‘void VidFileImpl::open(const string&)’:
+/home/todd/vegastrike/vegastrike/src/gfx/vid_file.cpp:245:45: error: ‘avcodec_alloc_frame’ was not declared in this scope
+         pFrameYUV     = avcodec_alloc_frame();
+                                             ^
+/home/todd/vegastrike/vegastrike/src/gfx/vid_file.cpp:258:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             while (width < pCodecCtx->width && width <= (fbDimensionLimit/2)) width *= 2;
+                          ^
+/home/todd/vegastrike/vegastrike/src/gfx/vid_file.cpp:259:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             while (height < pCodecCtx->height && height <= (fbDimensionLimit/2)) height *= 2;
+                           ^
+/home/todd/vegastrike/vegastrike/src/gfx/vid_file.cpp:273:49: error: ‘PIX_FMT_RGB24’ was not declared in this scope
+         frameBufferSize   = avpicture_get_size( PIX_FMT_RGB24, width, height );
+                                                 ^
+/home/todd/vegastrike/vegastrike/src/gfx/vid_file.cpp: In member function ‘bool VidFileImpl::seek(float)’:
+/home/todd/vegastrike/vegastrike/src/gfx/vid_file.cpp:301:51: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if ( (targetPTS >= prevPTS) && (targetPTS < pNextFrameYUV->pts) ) {
+                                                   ^
+/home/todd/vegastrike/vegastrike/src/gfx/vid_file.cpp:331:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 if (pNextFrameYUV->pts < targetPTS) {
+                                        ^
+/home/todd/vegastrike/vegastrike/src/gfx/vid_file.cpp:337:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 while (packet.dts < targetPTS) {
+                                   ^
+/home/todd/vegastrike/vegastrike/src/gfx/vid_file.cpp:343:43: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+                 while (pNextFrameYUV->pts < targetPTS) {
+                                           ^
+CMakeFiles/vegastrike.dir/build.make:2423: recipe for target 'CMakeFiles/vegastrike.dir/src/gfx/vid_file.cpp.o' failed
+make[2]: *** [CMakeFiles/vegastrike.dir/src/gfx/vid_file.cpp.o] Error 1
+CMakeFiles/Makefile2:245: recipe for target 'CMakeFiles/vegastrike.dir/all' failed
+make[1]: *** [CMakeFiles/vegastrike.dir/all] Error 2
+Makefile:76: recipe for target 'all' failed
+make: *** [all] Error 2

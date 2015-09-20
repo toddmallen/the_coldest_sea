@@ -1,0 +1,13 @@
+/home/todd/vegastrike/vegastrike/build/CMakeFiles/OPcollide.dir
+/home/todd/vegastrike/vegastrike/build/objconv/CMakeFiles/asteroidgen.dir
+/home/todd/vegastrike/vegastrike/build/boost/1_53/CMakeFiles/boost_python.dir
+/home/todd/vegastrike/vegastrike/build/boost/1_53/CMakeFiles/boost_system.dir
+/home/todd/vegastrike/vegastrike/build/CMakeFiles/engine_com.dir
+/home/todd/vegastrike/vegastrike/build/objconv/CMakeFiles/mesh_tool.dir
+/home/todd/vegastrike/vegastrike/build/CMakeFiles/netgeneric.dir
+/home/todd/vegastrike/vegastrike/build/CMakeFiles/netlowlevel.dir
+/home/todd/vegastrike/vegastrike/build/objconv/CMakeFiles/replace.dir
+/home/todd/vegastrike/vegastrike/build/objconv/CMakeFiles/trisort.dir
+/home/todd/vegastrike/vegastrike/build/CMakeFiles/vegaserver.dir
+/home/todd/vegastrike/vegastrike/build/CMakeFiles/vegastrike.dir
+/home/todd/vegastrike/vegastrike/build/setup/CMakeFiles/vssetup.dir
